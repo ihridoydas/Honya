@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#00bfa5"
+    android:weightSum="4"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:scaleType="fitXY"
+                android:background="@drawable/profile"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hridoy_chandra_das"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textColor="#fff" />
+
+
+            <TableRow
+                android:layout_width="100dp"
+                android:layout_height="1dp"
+                android:background="#fff">
+
+            </TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/software_engineer"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:padding="15dp"
+                android:textAlignment="center"
+                android:textSize="12sp"
+                android:text="@string/my_string"
+                android:textColor="#fff"/>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/msg"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Send Message"
+            android:background="@drawable/folow_round"
+            android:textColor="#fff"/>
+
+        <Button
+            android:id="@+id/fb"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Facebook Profile"
+            android:background="@drawable/pro_round"
+            android:textColor="#fff"
+            android:layout_marginTop="30dp"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center_horizontal">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="25dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Fb/ihridoydas"
+                android:textColor="#fcfcfc" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fcfcfc"
+                android:text="Twttr/ihridoydas"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fcfcfc"
+                android:text="Instra/ihridoydas"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+
+
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="2dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/banner_ad_unit_id">
+
+            </com.google.android.gms.ads.AdView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout><!--Top Content-->
+
+

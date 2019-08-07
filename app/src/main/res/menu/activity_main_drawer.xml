@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_n5"
+            android:icon="@android:drawable/star_on"
+            android:title="Minna No NihonGo I (N5)" />
+        <item
+            android:id="@+id/kanji"
+            android:icon="@android:drawable/star_on"
+            android:title="Minna No NihonGo(Kanji)" />
+        <item
+            android:id="@+id/nav_n4"
+            android:icon="@android:drawable/star_on"
+            android:title="Minna No NihonGo II (N4)" />
+        <item
+            android:id="@+id/nav_n3"
+            android:icon="@android:drawable/star_on"
+            android:title="Nihongo Sou Matome N3" />
+        <item
+        android:id="@+id/nav_n2"
+        android:icon="@android:drawable/star_on"
+        android:title="Nihongo Sou Matome N2" />
+
+        <item
+            android:id="@+id/nav_n1"
+            android:icon="@android:drawable/star_on"
+            android:title="Nihongo Sou Matome N1" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_info"
+                android:icon="@android:drawable/ic_dialog_info"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>

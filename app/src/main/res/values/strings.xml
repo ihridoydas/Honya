@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Honya</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Honya</string>
+    <string name="nav_header_subtitle">Japanese Learning Android Application</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="hiragana">Hiragana</string>
+    <string name="katakana">Katakana</string>
+    <string name="honya">本屋</string>
+    <string name="my_string">Hello, I am Hridoy Chandra Das, Currently studying at Narita Japanese Language school in Japan. And I\'m Senior Web Developer and Apps Developer,Working in the field for about 4 years now.I am 22 years old, living in Japan.</string>
+    <string name="software_engineer">Software Engineer</string>
+    <string name="hridoy_chandra_das">Hridoy Chandra Das</string>
+    <string name="banner_ad_unit_id">ca-app-pub-1352722733825128/9789279166</string>
+    <string name="appad">ca-app-pub-1352722733825128~1363994238</string>
+</resources>
